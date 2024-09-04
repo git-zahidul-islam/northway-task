@@ -33,8 +33,8 @@ const OurStudent = () => {
   ];
 
   return (
-    <section className='mt-20'>
-      <div className="container mx-auto px-4">
+    <section className='md:my-20 my-10'>
+      <div className="container mx-auto md:px-4 px-2">
         <div className="mb-8 space-y-5">
           <h2 className="md:text-5xl text-3xl font-bold">
             What’s <span className="text-orange-500">Our student say</span>

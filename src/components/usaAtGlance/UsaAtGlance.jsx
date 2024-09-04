@@ -1,7 +1,7 @@
 
 const UsaAtGlance = () => {
     return (
-        <div>
+        <div className="md:px-0 px-2">
             <h1 className="font-bold md:text-5xl text-3xl text-center md:mt-20 mt-10 mb-12"><span className="text-[#F6941E]">USA</span> At a Glance</h1>
             <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-1">
             <div className="bg-[#FFFFFF]">
