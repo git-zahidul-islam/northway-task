@@ -5,6 +5,7 @@ import ApplicationProcess from './components/applicationProcess/ApplicationProce
 import Banner from './components/banner/Banner'
 import CareerAndIndustry from './components/careerAndIndestry/CareerAndIndestry'
 import LatestBlog from './components/latestBlog/LatestBlog'
+import UsaAtGlance from './components/usaAtGlance/UsaAtGlance'
 import WhyStudy from './components/whyStudy/WhyStudy'
 import Footer from './shared/footer/Footer'
 import Navbar from './shared/navbar/Navbar'
@@ -28,6 +29,11 @@ function App() {
         <CareerAndIndustry/>
       </div>
 
+      {/* popular university and cost of education */}
+
+      <div className='md:w-[85%] w-full mx-auto'>
+        <UsaAtGlance/>
+      </div>
 
       <div className='bg-[#F6F2EE]'>
         <div className='md:w-[85%] w-full mx-auto mt-28 md:px-0 px-2'>
