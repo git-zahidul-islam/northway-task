@@ -2,8 +2,8 @@
 const UsaAtGlance = () => {
     return (
         <div>
-            <h1 className="font-bold text-5xl text-center md:mt-20 mt-10 mb-12"><span className="text-[#F6941E]">USA</span> At a Glance</h1>
-            <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-1 md:gap-1 gap-5">
+            <h1 className="font-bold md:text-5xl text-3xl text-center md:mt-20 mt-10 mb-12"><span className="text-[#F6941E]">USA</span> At a Glance</h1>
+            <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-1">
             <div className="bg-[#FFFFFF]">
                 <h4 className="text-lg font-bold bg-[#F6941E] text-white py-[10px] text-center">Course Duration</h4>
                 <div className="text-center md:py-6 py-4 h-[120px] flex flex-col justify-center">
