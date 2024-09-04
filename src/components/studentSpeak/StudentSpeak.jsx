@@ -1,6 +1,7 @@
-import img1 from '../../assets/blog/blog1.png'
-import img2 from '../../assets/blog/blog2.png'
-import img3 from '../../assets/blog/blog3.png'
+import { TiArrowLeft, TiArrowRight } from 'react-icons/ti';
+import img1 from '../../assets/student-speak/speak-i3.jpg'
+import img2 from '../../assets/student-speak/student-sp2.png'
+import img3 from '../../assets/student-speak/student-speak1.jpg'
 
 const StudentSpeak = () => {
   return (
@@ -28,25 +29,33 @@ const StudentSpeak = () => {
       <div className='lg:absolute top-20 flex flex-col justify-center items-center w-full h-full'>
         <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-center justify-items-center items-center lg:gap-0 md:gap-5 gap-0'>
           <div className="lg:h-[328px] lg:w-[330px] md:p-6 p-4 bg-[#FFFFFF] shadow-md">
-            <img src={img1} alt="logo" />
-            <p className="text-4xl font-bold text-[#1E1E1E]">dfd</p>
-            <p className="text-base font-normal text-[#1E1E1ECC]">sadfsa</p>
+            <img className='lg:h-[180px] lg:w-[280px]' src={img1} alt="logo" />
+            <div className='space-y-2 mt-5'>
+            <p className="text-4xl font-bold text-[#1E1E1E]">Rashmi Borah</p>
+            <p className="text-base font-normal text-[#1E1E1ECC]">Northeastern University, Boston</p>
+
+            </div>
           </div>
           <div className="lg:h-[395px] lg:w-[451px] md:p-6 p-4 bg-[#FFFFFF] shadow-md">
-            <img src={img2} alt="logo" />
-            <p className="text-4xl font-bold text-[#1E1E1E]">dfd</p>
-            <p className="text-base font-normal text-[#1E1E1ECC]">sadfsa</p>
+            <img className='lg:h-[250px] lg:w-[400px]' src={img2} alt="logo" />
+           <div className='space-y-2 mt-5'>
+            <p className="text-4xl font-bold text-[#1E1E1E]">Rashmi Borah</p>
+            <p className="text-base font-normal text-[#1E1E1ECC]">Northeastern University, Boston</p>
+
+            </div>
           </div>
           <div className="lg:h-[328px] lg:w-[330px] md:p-6 p-4 bg-[#FFFFFF] shadow-md">
-            <img src={img2} alt="logo" />
-            <p className="text-4xl font-bold text-[#1E1E1E]">dfd</p>
-            <p className="text-base font-normal text-[#1E1E1ECC]">sadfsa</p>
+            <img className='lg:h-[180px] lg:w-[280px]' src={img3} alt="logo" />
+            <div className='space-y-2 mt-5'>
+            <p className="text-4xl font-bold text-[#1E1E1E]">Rashmi Borah</p>
+            <p className="text-base font-normal text-[#1E1E1ECC]">Northeastern University, Boston</p>
+            </div>
           </div>
         </div>
 
-        <div className="flex items-center justify-center mt-10">
-          <p className="bg-green-300 p-2"> - </p>
-          <p className="bg-green-300 p-2"> - </p>
+        <div className="flex items-center justify-center mt-10 gap-5">
+          <TiArrowLeft className='bg-[#F6941E33] rounded-full' size={30}/>
+          <TiArrowRight className='bg-[#F6941E] rounded-full' size={30}/>
         </div>
       </div>
     </section>

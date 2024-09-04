@@ -21,7 +21,7 @@ function Navbar() {
       <div className="md:hidden">
         <button onClick={toggleMenu} className="focus:outline-none">
           <svg
-            className="w-6 h-6"
+            className="w-6 h-6 text-black"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"

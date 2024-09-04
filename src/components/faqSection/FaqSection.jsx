@@ -14,7 +14,7 @@ function FaqSection() {
   };
 
   return (
-    <div className="bg-gray-100 py-12 px-4 md:px-20 flex flex-col md:flex-row items-center justify-center md:items-start">
+    <div className="bg-gray-100 py-12 px-4 md:px-20 flex flex-col md:flex-row items-center justify-center gap-5">
 
       <div className="w-full md:w-1/2">
         <h2 className="text-4xl font-bold text-black mb-4">
@@ -49,12 +49,14 @@ function FaqSection() {
         </div>
       </div>
 
-      <div className="w-full md:w-1/2 mt-8 md:mt-0 md:ml-12 flex justify-center">
+      <div className="w-full md:w-1/2 flex justify-center items-center">
+        <div className='h-full w-full flex justify-center items-center'>
         <img
           src={faqImage}
           alt="Student"
           className="rounded-lg"
         />
+        </div>
       </div>
     </div>
   );
