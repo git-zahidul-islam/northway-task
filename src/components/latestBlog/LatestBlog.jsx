@@ -2,24 +2,29 @@ import { FaLongArrowAltRight, FaRegUser } from "react-icons/fa";
 import { LuMessagesSquare } from "react-icons/lu";
 import { SlCalender } from "react-icons/sl";
 
+// images
+import blog1 from '../../assets/blog/blog1.png'
+import blog2 from '../../assets/blog/blog2.png'
+import blog3 from '../../assets/blog/blog3.png'
+
 const blogs = [
     {
         id: 1,
         title: 'Emotional Intelligence in Education Building',
         date: 'July 24, 2024',
-        image: 'https://i.ibb.co/QfJk6ZR/Screenshot-2024-09-04-124122.png',
+        image: blog1,
     },
     {
         id: 2,
         title: 'Emotional Intelligence in Education Building',
         date: 'July 24, 2024',
-        image: 'https://i.ibb.co/877Lp06/Screenshot-2024-09-04-124146.png',
+        image: blog2,
     },
     {
         id: 3,
         title: 'Emotional Intelligence in Education Building',
         date: 'July 24, 2024',
-        image: 'https://i.ibb.co/pKz3Grh/Screenshot-2024-09-04-124207.png',
+        image: blog3,
     },
 ];
 
@@ -56,7 +61,7 @@ const LatestBlog = () => {
                         ))}
                     </div>
 
-                    <button className="flex mx-auto gap-2 items-center justify-center mt-8 px-6 py-2  border  rounded-sm shadow-lg border-[#e6931b] text-[#e6931b]">
+                    <button className="flex mx-auto gap-2 items-center justify-center mt-8 px-6 py-2  border  rounded-sm shadow-lg border-[#e6931b] text-[#e6931b] bg-[#FFFFFF]">
                         <p className="font-bold">Browse More Blog</p>
                         <p><FaLongArrowAltRight /></p>
                     </button>

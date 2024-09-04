@@ -5,6 +5,7 @@ import ApplicationProcess from './components/applicationProcess/ApplicationProce
 import Banner from './components/banner/Banner'
 import CareerAndIndustry from './components/careerAndIndestry/CareerAndIndestry'
 import CostOfEducation from './components/costOfEducation/CostOfEducation'
+import FaqSection from './components/faqSection/FaqSection'
 import LatestBlog from './components/latestBlog/LatestBlog'
 import OurStudent from './components/ourStudent/OurStudent'
 import PopularUniversity from './components/popularUnivercity/PopularUnivercity'
@@ -45,8 +46,12 @@ function App() {
       {/* student speak */}
       <StudentSpeak/>
 
+      <div className='md:w-[85%] w-full mx-auto'>
+        <FaqSection/>
+      </div>
+
       <div className='bg-[#F6F2EE]'>
-        <div className='md:w-[85%] w-full mx-auto mt-28 md:px-0 px-2'>
+        <div className='md:w-[85%] w-full mx-auto md:mt-16 mt-10 md:px-0 px-2'>
           <LatestBlog/>
         </div>
       </div>

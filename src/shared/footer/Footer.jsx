@@ -2,6 +2,7 @@ import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 import { IoLocationOutline } from "react-icons/io5";
 import { LuPhone } from "react-icons/lu";
 import { MdOutlineEmail } from "react-icons/md";
+import footerImage from '../../../public/Logo.png'
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
         {/* Logo and Description */}
         <div className="text-gray-400">
           <img
-            src="/path-to-your-logo.png"
+            src={footerImage}
             alt="Northway Global"
             className="h-10 mb-4"
           />
@@ -102,7 +103,7 @@ const Footer = () => {
       {/* Bottom Footer */}
       <div className="container mx-auto border-b border-gray-700 my-6"></div>
       <p className="text-center text-gray-400">
-        Designed and Developed By Ethical Den
+        Designed and Developed By Zahidul Islam
       </p>
     </footer>
   );
