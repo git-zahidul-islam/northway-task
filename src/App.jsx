@@ -3,7 +3,9 @@
 import './App.css'
 import ApplicationProcess from './components/applicationProcess/ApplicationProcess'
 import Banner from './components/banner/Banner'
+import LatestBlog from './components/latestBlog/LatestBlog'
 import WhyStudy from './components/whyStudy/WhyStudy'
+import Footer from './shared/footer/Footer'
 import Navbar from './shared/navbar/Navbar'
 
 function App() {
@@ -23,6 +25,15 @@ function App() {
         <ApplicationProcess></ApplicationProcess>
         <WhyStudy></WhyStudy>
       </div>
+
+
+      <div className='bg-[#F6F2EE]'>
+        <div className='md:w-[85%] w-full mx-auto mt-28 md:px-0 px-2'>
+          <LatestBlog/>
+        </div>
+      </div>
+
+      <Footer/>
     </div>
   )
 }

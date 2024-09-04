@@ -13,7 +13,7 @@ const WhyStudy = () => {
       </div>
 
       {/* Right Div: Content */}
-      <div className="md:w-6/12 w-full flex flex-col md:px-0 px-5">
+      <div className="md:w-6/12 w-full flex flex-col md:px-0 px-2">
         {/* First Section: Title with Description */}
         <div className="md:space-y-5 space-y-3 md:mb-5 mb-3">
           <h2 className="lg:text-5xl md:text-3xl text-2xl font-bold mb-2 text-[#1E1E1E]">Why Study? <span className="text-[#F6941E]">In USA</span></h2>
