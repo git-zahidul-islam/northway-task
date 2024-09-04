@@ -3,6 +3,7 @@
 import './App.css'
 import ApplicationProcess from './components/applicationProcess/ApplicationProcess'
 import Banner from './components/banner/Banner'
+import CareerAndIndustry from './components/careerAndIndestry/CareerAndIndestry'
 import LatestBlog from './components/latestBlog/LatestBlog'
 import WhyStudy from './components/whyStudy/WhyStudy'
 import Footer from './shared/footer/Footer'
@@ -21,9 +22,10 @@ function App() {
       <Banner></Banner>
 
       {/* specifies size */}
-      <div className='md:w-[85%] w-full mx-auto'>
+      <div className='md:w-[85%] w-full mx-auto space-y-28'>
         <ApplicationProcess></ApplicationProcess>
         <WhyStudy></WhyStudy>
+        <CareerAndIndustry/>
       </div>
 
 

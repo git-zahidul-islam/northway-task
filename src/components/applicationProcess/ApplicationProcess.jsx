@@ -2,9 +2,9 @@ import { FaRegAddressCard, FaUniversity, FaFileAlt, FaBriefcase, FaUserCheck, Fa
 
 function ApplicationProcess() {
   return (
-    <div className="py-12">
+    <div className="md:mt-20 mt-10">
       {/* Title Section */}
-      <div className="text-center mb-12">
+      <div className="text-center">
         <h2 className="text-4xl font-bold text-black">
           <span className="text-orange-500">Our</span> Application Process
         </h2>

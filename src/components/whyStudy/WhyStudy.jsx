@@ -3,18 +3,16 @@ import { FaLongArrowAltRight, FaStar } from "react-icons/fa";
 const WhyStudy = () => {
   return (
     <div className="flex items-center md:flex-row flex-col lg:gap-20 md:gap-10 gap-0 md:space-y-0 space-y-5">
-      {/* Left Div: Image */}
+
       <div className="md:w-6/12 w-full flex justify-center items-center">
         <img
-          src="https://i.postimg.cc/vBNB82pS/whyStudt.png" // Replace with your image path
+          src="https://i.postimg.cc/vBNB82pS/whyStudt.png"
           alt="Why Study Image"
           className="md:h-[447px] md:w-[501px] w-full h-full object-cover"
         />
       </div>
 
-      {/* Right Div: Content */}
       <div className="md:w-6/12 w-full flex flex-col md:px-0 px-2">
-        {/* First Section: Title with Description */}
         <div className="md:space-y-5 space-y-3 md:mb-5 mb-3">
           <h2 className="lg:text-5xl md:text-3xl text-2xl font-bold mb-2 text-[#1E1E1E]">Why Study? <span className="text-[#F6941E]">In USA</span></h2>
           <p className="text-gray-600">
@@ -23,7 +21,6 @@ const WhyStudy = () => {
           </p>
         </div>
 
-        {/* Second Section: Quick Facts */}
         <div>
           <h3 className="text-2xl font-bold mb-2 text-[#1E1E1E]">Quick Facts</h3>
           <ul className="list-none space-y-3">
@@ -35,7 +32,6 @@ const WhyStudy = () => {
           </ul>
         </div>
 
-        {/* Third Section: See More Button */}
         <div className="mt-10">
           <button className="px-4 py-2 text-white text-lg bg-[#F6941E] flex items-center gap-3">
             See More <FaLongArrowAltRight/>
