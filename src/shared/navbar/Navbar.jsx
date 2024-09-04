@@ -169,7 +169,7 @@ function Navbar() {
                 href="#"
                 className="block text-center text-[#F6941E] border border-[#F6941E] px-4 py-2 rounded-md text-base font-medium"
               >
-                Enquire Now dddd
+                Enquire Now
               </a>
             </div>
           </div>
