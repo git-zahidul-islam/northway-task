@@ -8,7 +8,6 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-300 px-20 py-12">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 ">
-        {/* Logo and Description */}
         <div className="text-gray-400">
           <img
             src={footerImage}
@@ -32,7 +31,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Category Links */}
         <div className="text-gray-400">
           <h2 className="text-white text-xl mb-4 font-bold">Category</h2>
           <ul>
@@ -54,7 +52,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Latest Post Links */}
         <div className="text-gray-400">
           <h2 className="text-white text-xl mb-4 font-bold">Latest Post</h2>
           <ul>
@@ -70,7 +67,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Latest Post Links */}
         <div className="text-gray-400">
           <h2 className="text-white text-xl mb-4 font-bold">Contact Us</h2>
           <div className="space-y-2">
@@ -100,7 +96,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Footer */}
       <div className="container mx-auto border-b border-gray-700 my-6"></div>
       <p className="text-center text-gray-400">
         Designed and Developed By Zahidul Islam
