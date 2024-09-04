@@ -5,6 +5,7 @@ import ApplicationProcess from './components/applicationProcess/ApplicationProce
 import Banner from './components/banner/Banner'
 import CareerAndIndustry from './components/careerAndIndestry/CareerAndIndestry'
 import LatestBlog from './components/latestBlog/LatestBlog'
+import OurStudent from './components/ourStudent/OurStudent'
 import UsaAtGlance from './components/usaAtGlance/UsaAtGlance'
 import WhyStudy from './components/whyStudy/WhyStudy'
 import Footer from './shared/footer/Footer'
@@ -33,6 +34,7 @@ function App() {
 
       <div className='md:w-[85%] w-full mx-auto'>
         <UsaAtGlance/>
+        <OurStudent/>
       </div>
 
       <div className='bg-[#F6F2EE]'>
