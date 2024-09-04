@@ -31,7 +31,6 @@ const CareerAndIndustry = () => {
         </div>
       </div>
 
-      {/* this is image section */}
       <div className="md:w-6/12 w-full flex justify-center items-center">
         <img
           src="https://i.postimg.cc/zXSW6SQh/careerandindestry.png"

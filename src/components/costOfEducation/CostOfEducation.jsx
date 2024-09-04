@@ -3,12 +3,11 @@ import image from '../../assets/images/cost-education.png'
 const CostOfEducation = () => {
     return (
         <div className="flex flex-col lg:flex-row items-center justify-center md:px-6 px-2 py-6 max-w-[1140px] mx-auto">
-            {/* Left Image Section */}
             <div className="relative w-full lg:w-[40%] ">
                 <img src={image} alt="Cost of Education" className="mx-aut" />
             <div className="absolute inset-0 bg-black bg-opacity-35"></div>
             </div>
-            {/* Right Text Section */}
+            
             <div className="w-full lg:w-[60%] h-[369px] p-2  pl-0 lg:pl-14">
                 <h2 className="text-3xl lg:text-5xl font-bold mt-6 mb-4">
                     <span className="text-[#F6941E]">Cost</span> of education

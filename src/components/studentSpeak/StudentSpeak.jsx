@@ -25,7 +25,6 @@ const StudentSpeak = () => {
         </div>
       </div>
 
-      {/* slide image */}
       <div className='lg:absolute top-20 flex flex-col justify-center items-center w-full h-full'>
         <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-center justify-items-center items-center lg:gap-0 md:gap-5 gap-0'>
           <div className="lg:h-[328px] lg:w-[330px] md:p-6 p-4 bg-[#FFFFFF] shadow-md">

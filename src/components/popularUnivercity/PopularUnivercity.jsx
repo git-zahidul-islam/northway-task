@@ -32,7 +32,6 @@ const PopularUniversity = () => {
         </h2>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {/* Card 1 */}
           <div className="bg-white shadow-md  h-[auto]">
             <img
               src={img1}
@@ -44,7 +43,6 @@ const PopularUniversity = () => {
             </p>
           </div>
 
-          {/* Card 2 */}
           <div className="bg-white shadow-md p-5 h-[auto]">
             <img
               src={img2}
@@ -56,7 +54,6 @@ const PopularUniversity = () => {
             </p>
           </div>
 
-          {/* Card 3 */}
           <div className="bg-white shadow-md p-5 h-[auto]">
             <img
               src={img3}
@@ -68,7 +65,6 @@ const PopularUniversity = () => {
             </p>
           </div>
 
-          {/* Card 4 */}
           <div className="bg-white shadow-md p-5 h-[auto]">
             <img
               src={img2}
@@ -80,7 +76,6 @@ const PopularUniversity = () => {
             </p>
           </div>
 
-          {/* Card 5 */}
           <div className="bg-white shadow-md p-5 h-[auto]">
             <img
               src={img3}
@@ -92,7 +87,6 @@ const PopularUniversity = () => {
             </p>
           </div>
 
-          {/* Card 6 */}
           <div className="bg-white shadow-md  h-[auto]">
             <img
               src={img1}

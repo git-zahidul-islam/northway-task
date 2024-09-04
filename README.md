@@ -1,4 +1,4 @@
-# Project Name
+# Northway
 
 This is a project built with React, Tailwind CSS, and React Icons. It provides a clean, responsive, and modern interface using these technologies.
 
