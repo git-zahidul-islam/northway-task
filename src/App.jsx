@@ -10,10 +10,18 @@ function App() {
 
   return (
     <div className='bg-[#F5F5F5]'>
-    
-      <Navbar></Navbar>
+      {/* specifies size */}
+      <div className='md:w-[90%] w-full mx-auto'>
+        <Navbar></Navbar>
+      </div>
+      
       <Banner></Banner>
       <ApplicationProcess></ApplicationProcess>
+
+      {/* specifies size */}
+      <div className='md:w-[90%] w-full mx-auto'>
+        
+      </div>
     </div>
   )
 }

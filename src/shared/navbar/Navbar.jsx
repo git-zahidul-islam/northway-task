@@ -9,7 +9,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="text-white p-4 flex items-center justify-between flex-wrap">
+    <nav className="text-white md:p-0 p-4 flex items-center justify-between flex-wrap">
       {/* logo for mobile */}
       <div className="md:hidden block">
         <a className='' href="/">
@@ -41,7 +41,7 @@ function Navbar() {
       <div
         className={`${
           isOpen ? 'block' : 'hidden'
-        } w-full md:flex justify-between items-center md:space-x-4 px-20 py-4`}
+        } w-full md:flex justify-between items-center md:space-x-4 py-6`}
       >
 
         <div className="text-xl font-bold md:block hidden">
