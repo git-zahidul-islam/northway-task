@@ -1,6 +1,5 @@
 import  { useState } from 'react';
 import { RiArrowDownWideFill } from 'react-icons/ri';
-import { Link } from 'react-router-dom';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,8 +11,10 @@ function Navbar() {
   return (
     <nav className="text-white p-4 flex items-center justify-between flex-wrap">
       {/* logo for mobile */}
-      <div className="text-xl font-bold md:hidden block">
-        <a className='text-black' href="/">MyLogo</a>
+      <div className="md:hidden block">
+        <a className='' href="/">
+        <img src="https://i.postimg.cc/Ls6Vdr9d/Logo.png" alt="logo" />
+        </a>
       </div>
 
       {/* this is Mobile menu button */}
@@ -44,7 +45,9 @@ function Navbar() {
       >
 
         <div className="text-xl font-bold md:block hidden">
-          <a className='text-black' href="/">MyLogo</a>
+          <a href="/">
+            <img src="https://i.postimg.cc/Ls6Vdr9d/Logo.png" alt="logo" />
+          </a>
         </div>
 
         <div className="flex flex-col md:flex-row md:space-x-4 text-[#1E1E1ECC] font-bold text-lg">
