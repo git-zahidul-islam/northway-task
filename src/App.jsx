@@ -14,13 +14,12 @@ function App() {
       <div className='md:w-[90%] w-full mx-auto'>
         <Navbar></Navbar>
       </div>
-      
+
       <Banner></Banner>
-      <ApplicationProcess></ApplicationProcess>
 
       {/* specifies size */}
       <div className='md:w-[90%] w-full mx-auto'>
-        
+        <ApplicationProcess></ApplicationProcess>
       </div>
     </div>
   )
