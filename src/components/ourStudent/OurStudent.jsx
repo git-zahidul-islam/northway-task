@@ -35,11 +35,11 @@ const OurStudent = () => {
   return (
     <section className='mt-20'>
       <div className="container mx-auto px-4">
-        <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold">
+        <div className="mb-8 space-y-5">
+          <h2 className="md:text-5xl text-3xl font-bold">
             What’s <span className="text-orange-500">Our student say</span>
           </h2>
-          <p className="text-gray-600 mt-2">
+          <p className="text-[#1E1E1ECC] mt-2 md:w-[60%] w-full text-base font-normal">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
@@ -61,8 +61,8 @@ const OurStudent = () => {
                   className="w-10 h-10 rounded-full mr-4"
                 />
                 <div>
-                  <h4 className="font-bold text-gray-800">{testimonial.name}</h4>
-                  <p className="text-sm text-gray-600">{testimonial.title}</p>
+                  <h4 className="text-lg font-bold text-[#000000CC]">{testimonial.name}</h4>
+                  <p className="text-base font-normal text-[#000000CC]">{testimonial.title}</p>
                 </div>
               </div>
             </div>

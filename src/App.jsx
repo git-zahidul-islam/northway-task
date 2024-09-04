@@ -24,7 +24,7 @@ function App() {
       <Banner></Banner>
 
       {/* specifies size */}
-      <div className='md:w-[85%] w-full mx-auto space-y-28'>
+      <div className='md:w-[85%] w-full mx-auto md:space-y-28 space-y-12'>
         <ApplicationProcess></ApplicationProcess>
         <WhyStudy></WhyStudy>
         <CareerAndIndustry/>
